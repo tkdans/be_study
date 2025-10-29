@@ -1,6 +1,6 @@
 package be_study.var;
 
-public class variable01 {
+public class Variable01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -65,11 +65,9 @@ public class variable01 {
 		// a:20 b:10으로  바꾸는 방법
 		int a = 10;
 		int b = 20;
-		// a:10 b:20 값을
 		System.out.println(a); //10
 		System.out.println(b); //20
-		//
-		
+		// int를 하나 더 만즐어 복사하고 변수값을 다르게 저장한다.
 		int c = a; // a:10 b:20 c: 10
 		a=b;	//a:20 b: 20 c:10
 		b=c;    // a:20 b:10 c:10
