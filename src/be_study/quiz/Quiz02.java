@@ -90,7 +90,7 @@ public class Quiz02 {
 		String mathScore = "85";
 		String englishScore = "90";
 		String artScore = "70";
-		System.out.println(("총점 :") + (Integer.parseInt(mathScore) + Integer.parseInt(englishScore) + Integer.parseInt(artScore));
+		System.out.println("총점 :" + (Integer.parseInt(mathScore) + Integer.parseInt(englishScore) + Integer.parseInt(artScore)));
 		
 	
 		
@@ -112,7 +112,7 @@ public class Quiz02 {
 		num3 = (double)num1 /(double) num2 ;
 		System.out.println( num3 );
 
-		double num4 = num1: // double num4 = 4.0
+		double num4 = num1; // double num4 = 4.0
 	}
 
 }
