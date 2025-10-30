@@ -42,10 +42,10 @@ public class Quiz01 {
 		//f. hello@com 제목에 @표시는 안쓴다 X 특수문자
 		//g. int 변수는 이름이 될 수 없다 X int 변수타입 예약어
 
-		//7. 다음중 변수 초기화가 잘못 된 것은?
+		//7. 다음중 변수 초기화가 잘못 된 것은? c
 		//a. int b = 255;
 		//b. String s = "T";
-		//c. char answer = 'no'; X 'n' , 'o' "no"
+		//c. char answer = 'no';  X  // 'n' , 'o' "no"
 		//d. char flag = 'F';
 
 		//8. 다음 정수형 타입들 중에서 자바가 정수형 값을 만났을때 가장 기본적(대표적)으로 인식하는 변수 타입은? int
