@@ -136,7 +136,7 @@ public class Operator01 {
 			//삼항연산자 조건식
 			System.out.println(point <= 200 ? "생수": (point > 300 ? "맥주" : "커피"));
 			
-			int num =-30;
+			int num =1;
 			System.out.println(num < 0 ? "음수" : "양수");
 			//음수 0 양수 논리구조(로직)
 			System.out.println(num == 0 ? "0" : (num > 0 ? "양수" : "음수"));
