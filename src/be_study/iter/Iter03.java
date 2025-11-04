@@ -25,6 +25,7 @@ public class Iter03 {
 				}
 			}
 		}
+		//중첩된 반복론
 		//방 3개 
 			//3번씩 쓸기
 			//2번씩 닦기
@@ -42,7 +43,7 @@ public class Iter03 {
 			for(int j=1; j<=3; j++) {
 				System.out.println("쓸기");
 			}
-			int k = 1;// 닦기
+			int k = 1;// 닦기 2번
 			while(k<=2) {
 				System.out.println("닦기");
 				k++;
