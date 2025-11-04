@@ -123,12 +123,20 @@ public class Quiz07 {
 		if ( localNum.equals("051") ){
 		System.out.println("부산입니다");
 		}
-
-		switch(031){
+	
+		switch(localNum){
 		case "031":
 			System.out.println("경기도입니다.");
-			break
-		ca
+			break;
+		case "02":
+			System.out.println("서울입니다.");
+			break;
+		case "041":
+			System.out.println("충남입니다.");
+			break;
+		case "051":
+			System.out.println("부산입니다");
+			
 		}
 		
 
@@ -137,16 +145,32 @@ public class Quiz07 {
 		// 결과 값만 동일하게 나오도록 만들어보세요.
 		// 단, 점수는 100점까지로 간주합니다.
 		// 점수는 0~100 점 중에 score로 주어진다.
-
-//		if( score >= 90) {
-//		System.out.println("학점 A");
-//		} else if ( score >= 80) {
-//		System.out.println("학점 B");
-//		} else if (score >= 70) {
-//		System.out.println("학점 C");
-//		} else if (score < 70) {
-//		System.out.println("학점 F");
-//		}	
+		int score = 80;
+		if( score >= 90) {
+		System.out.println("학점 A");
+		} else if ( score >= 80) {
+		System.out.println("학점 B");
+		} else if (score >= 70) {
+		System.out.println("학점 C");
+		} else if (score < 70) {
+		System.out.println("학점 F");
+		}	
+		int score10 = score/10;
+		switch(score10) {
+		case 10:
+		case 9:
+			System.out.println("학점 A");
+			break;
+		case 8:
+			System.out.println("학점 B");
+			break;
+		case 7:
+			System.out.println("학점 C");
+			break;
+		default:
+			System.out.println("학점 D");
+			
+		}
 }
 	
 }
