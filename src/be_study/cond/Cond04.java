@@ -42,7 +42,17 @@ public class Cond04 {
 			if(sleepTime>8) {// "일찍 많이"
 				System.out.println("일찍많이");
 			}else {
-				System.out.println("일찍적게");}}}}
+				System.out.println("일찍적게");}}
+	if(goBedTime<=21 && sleepTime > 8) {
+		System.out.println("일찍많이");
+//	}else if (goBedTime <=21 && sleepTime <=8) {}
+	}else if (goBedTime <=21 && !(sleepTime >8)) {
+		System.out.println("일찍 적게");}
+		else if
+		
+	}
+
+}}
 		
 		
 
