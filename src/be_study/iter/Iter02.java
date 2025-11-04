@@ -1,0 +1,69 @@
+package be_study.iter;
+
+public class Iter02 {
+
+	public static void main(String[] args) {
+		// while문
+		/*
+		 for문(초기화, 조건, 증감){
+		 		실행문
+		 		}
+		 		
+		 while(조건){
+		 		실행문
+		 		}
+		 		
+		 초기화;
+		 while(조건){
+		 		실행문
+		 		
+		 		증감;
+		 		}
+		 		
+		 */
+		for(int i=1; i<=5; i++) {
+			System.out.println("햄버거");
+		}
+		int i=1;
+		while(i<=5) {
+			System.out.println("짜장면");
+			i++;
+		}
+//		while(true) {
+//			System.out.println("무한루프");
+//			break;
+//		}
+		i=10;
+	while(true) {
+		//System.out.println("무한루프~break"+i);
+		i++; /*특정조건 */
+		System.out.println("무한루프~break"+i);
+		if(i==21)
+			break;//break 시점 및 출력시점이 중요, 
+		//순서를 잘 정해야 기준, 시점, 흐름에 영향을 준다
+		//System.out.println("무한루프~break"+i);
+	}
+	i=30;
+	do {//그냥 한다. 그리고 뒤에 세미콜론 붙여 끝낸다.
+		System.out.println("일단 한번 먼저 실행 do while");
+	}while(i<10);
+	
+	while(i<10) {
+		System.out.println("그낭 while");
+	}
+	
+	System.out.println("-----------------------------------");
+	
+	for(i=1; i<=10;i++) { 
+		
+		if(i==5) {//1 2 3 4 5
+			continue;//이번턴 패스 다음으로 계속~
+		}
+		System.out.println("i: "+i);
+		if(i==8)
+			break;
+		
+	}
+		
+
+}}
