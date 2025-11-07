@@ -1,5 +1,6 @@
 package be_study.refer;
 
+
 public class Arr03 {
 
 	public static void main(String[] args) {
@@ -18,6 +19,10 @@ public class Arr03 {
 		 //					string		string
 		 System.out.println(arr2[0].equals(arr2[2]));
 
+		 int n = 10;
+		 String s = "의자";
+		 
+//		 String[][]
 	}
 
 }
