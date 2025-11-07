@@ -7,13 +7,59 @@ public class Practice02 {
  
 		int[][] arr = new int[5][5];
 		for(int i = 0; i<5; i++) {
-			
-			int
-			
+
+			for(int j =0; j<5; j++) {
+			}
+			System.out.println(i);
 		}
-//		i값이 0부터 4까지 4번 출력	
-		int sum = 0;
-		for()
 	}
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		for(int j =0; j<5; j++) {
+			arr[i][0]=[j];
+			arr[i][1]=[j];
+			arr[i][2]=[j];
+			arr[i][3]=[j];
+			arr[i][4]=[j];
+		}
+		
+		arr[i][0]=[0]
+		arr[i][1]=[0]
+		arr[i][2]=[0];
+		arr[i][3]=[0];
+		arr[i][4]=[0];
+		arr[i][0]=[1]
+		arr[i][1]=[1]
+		arr[i][2]=[1];
+		arr[i][3]=[1];
+		arr[i][4]=[1];
 	
 }
