@@ -145,7 +145,7 @@ int n1 =scanner.nextInt();
 		100이상인지 찾으시오. 100 이상이된 시점의 누적합이 얼마인지 + 얼마까지 더해서 100이 넘었는지 찾으세요.
  		짝수는 빼기, 100까지 */
 		// 1-2+3-4...>=100??
-		//어디까지 모르겠다
+		//어디까지 모르겠다. while문을 사용
 		
 		int i = 1;
 		int total = 0;
@@ -167,14 +167,14 @@ int n1 =scanner.nextInt();
 		System.out.println("100 이상이된 시점의 누적합 :"+ total+"얼마까지 계산: "+i);
 		
 		total=0;
-		for(i=1; total<100; i++) {
+		for(i=1; total<100; i++) {//더하기가 언제 되는지가 값을 다르게 한다.for문의 특성을 고려
 			if(i%2 == 0) {//짝수 빼기
 				total = total -i;
 			}else {//홀수 더하기
 				total = total + i;
 			}
 		}
-		System.out.println("100 이상이된 시점의 누적합 :"+ total+"얼마까지 계산: "+i);
+		System.out.println("100 이상이된 시점의 누적합 :"+ total+"얼마까지 계산: "+i/*(i-1)for문의 특성));
 		
 	}
 
